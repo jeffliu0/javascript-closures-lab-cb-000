@@ -9,3 +9,10 @@ function bumpCounter(){
     return counter
   }
 }
+
+function createAnimal(deadlyDevice){
+  return {
+    animalType:'',
+    deadlyDevice:deadlyDevice
+  }
+}
